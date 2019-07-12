@@ -3,6 +3,7 @@ sudo: false
 addons:
   apt:
     packages:
+    - ca-certificates
     - libcurl4-openssl-dev
 
 cache:
